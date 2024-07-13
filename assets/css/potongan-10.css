@@ -34,7 +34,6 @@
     top: 53.66%;
     left: 20.9%;
     font-weight: 500;
-    color: #fdcedf;
     display: inline-block;
   }
   .phone-call-icon {
@@ -58,7 +57,6 @@
     right: 73.7%;
     bottom: 0%;
     left: 0%;
-    color: #ffb7d1;
   }
   .everyday {
     position: absolute;
@@ -75,7 +73,6 @@
     left: 17.89%;
     text-transform: uppercase;
     font-weight: 500;
-    color: #ffb7d1;
     display: inline-block;
   }
   .clock-icon {
@@ -115,7 +112,6 @@
     left: 26.65%;
     text-transform: uppercase;
     font-weight: 500;
-    color: #ffb7d1;
     display: inline-block;
   }
   .location-icon {
@@ -159,7 +155,7 @@
     width: 1600px;
     height: 80px;
   }
-  .tentang-kami-navbar {
+  .tentang-kami {
     position: relative;
   }
   .navbar-menu {
@@ -203,145 +199,63 @@
     color: #fcfefe;
     font-family: "Work Sans";
   }
-  .ahmad-profil-icon {
-    position: absolute;
-    top: 107px;
-    left: 0px;
-    width: 394px;
-    height: 397px;
-    object-fit: cover;
-  }
-  .poin-mahoni-box {
+  .potongan-harga-10 {
     position: absolute;
     top: 0px;
     left: 0px;
-    border-radius: 50px;
-    border: 1px solid #a03d56;
-    box-sizing: border-box;
-    width: 175px;
-    height: 42px;
-  }
-  .poin-mahoni-icon {
-    position: absolute;
-    top: 3px;
-    left: 19px;
-    width: 33px;
-    height: 36px;
-    object-fit: cover;
-  }
-  .poin-mahoni {
-    position: absolute;
-    top: 4px;
-    left: 60px;
-  }
-  .b {
-    position: absolute;
-    top: 19px;
-    left: 92px;
-    font-size: 18px;
-  }
-  .poin-mahoni-button {
-    position: absolute;
-    top: 523px;
-    left: 105px;
-    width: 175px;
-    height: 42px;
-    text-align: center;
-    font-size: 15px;
-    color: #a03d56;
-  }
-  .profil1 {
-    position: absolute;
-    top: 0px;
-    left: 496px;
     font-size: 64px;
     font-family: "Yeseva One";
     color: #ffb7d1;
-    text-align: center;
   }
-  .nama-lengkap {
+  .potongan-10-banner {
     position: absolute;
-    top: 107px;
-    left: 496px;
+    top: 108px;
+    left: 20px;
+    border-radius: 30px;
+    width: 622px;
+    height: 622px;
+    object-fit: cover;
+  }
+  .masukkan-password {
+    position: absolute;
+    top: 794px;
+    left: 214px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+  .masukkan-password-anda {
+    width: 151px;
+    position: relative;
+    font-weight: 500;
+    display: none;
+  }
+  .password {
+    position: absolute;
+    top: 857px;
+    left: 106px;
     border-radius: 6px;
     border: 1px solid #000;
     box-sizing: border-box;
-    width: 379px;
-    height: 58px;
+    width: 444px;
+    height: 68px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     padding: 9px 7px;
+    text-align: left;
+    font-size: 14px;
   }
-  .username {
+  .tukar-hadiah-button {
     position: absolute;
-    top: 189px;
-    left: 496px;
-    border-radius: 6px;
-    border: 1px solid #000;
-    box-sizing: border-box;
-    width: 379px;
-    height: 58px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 9px 7px;
-  }
-  .email {
-    position: absolute;
-    top: 272px;
-    left: 494px;
-    border-radius: 6px;
-    border: 1px solid #000;
-    box-sizing: border-box;
-    width: 379px;
-    height: 58px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 9px 7px;
-  }
-  .password-baru {
-    position: absolute;
-    top: 359px;
-    left: 494px;
-    border-radius: 6px;
-    border: 1px solid #000;
-    box-sizing: border-box;
-    width: 379px;
-    height: 58px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 9px 7px;
-  }
-  .konfirmasi-password {
-    position: absolute;
-    top: 446px;
-    left: 494px;
-    border-radius: 6px;
-    border: 1px solid #000;
-    box-sizing: border-box;
-    width: 379px;
-    height: 58px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 9px 7px;
-  }
-  .update-data-button {
-    position: absolute;
-    top: 536px;
-    left: 494px;
+    top: 984px;
+    left: 246px;
+    font-weight: 500;
+    font-size: 16px;
     border-radius: 50px;
     border: 1px solid #a03d56;
     background-color: #a03d56;
-    width: 379px;
+    width: 170px;
     height: 60px;
     display: flex;
     flex-direction: row;
@@ -349,38 +263,34 @@
     justify-content: center;
     padding: 13px 35px;
     box-sizing: border-box;
-    font-size: 16px;
-    color: #fdcedf;
+    text-align: left;
+    color: #ffb7d1;
   }
-  .logout-button {
+  .website {
+    font-family: "Work Sans";
+  }
+  .poin-mahoni-yang-dibutuhkan-70 {
+    margin: 0;
+    font-size: inherit;
+    padding-left: 21px;
+  }
+  .syarat-dan-ketentuan-container {
     position: absolute;
-    top: 621px;
-    left: 494px;
-    border-radius: 50px;
-    background-color: #fcfefe;
-    border: 1px solid #a03d56;
-    box-sizing: border-box;
-    width: 379px;
-    height: 60px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 13px 35px;
-    font-size: 16px;
-    color: #a03d56;
+    top: 1103px;
+    left: 27px;
+    line-height: 140%;
+    text-align: justify;
+    display: inline-block;
+    width: 618px;
   }
-  .logout {
-    position: relative;
-    font-weight: 500;
-  }
-  .content-profil {
+  .content-potongan-10 {
     position: absolute;
-    top: 278px;
-    left: 309px;
-    width: 875px;
-    height: 681px;
-    font-size: 14px;
+    top: 242px;
+    left: 469px;
+    width: 656px;
+    height: 1257px;
+    text-align: center;
+    font-size: 16px;
     color: #000;
     font-family: "Work Sans";
   }
@@ -396,7 +306,7 @@
   }
   .halomahoni1 {
     position: absolute;
-    width: 93.34%;
+    width: 93.33%;
     top: 0%;
     left: 0%;
     text-transform: uppercase;
@@ -427,7 +337,7 @@
   }
   .menu1 {
     position: absolute;
-    width: 46.26%;
+    width: 46.22%;
     top: 0%;
     left: 0%;
     font-weight: 600;
@@ -435,7 +345,7 @@
   }
   .layanan1 {
     position: absolute;
-    width: 61.3%;
+    width: 61.27%;
     top: 26.61%;
     left: 0%;
     line-height: 140%;
@@ -443,7 +353,7 @@
   }
   .promo1 {
     position: absolute;
-    width: 48.11%;
+    width: 48.07%;
     top: 53.21%;
     left: 0%;
     line-height: 140%;
@@ -451,7 +361,7 @@
   }
   .galeri1 {
     position: absolute;
-    width: 43.36%;
+    width: 43.4%;
     top: 79.82%;
     left: 0%;
     line-height: 140%;
@@ -470,21 +380,21 @@
   .menu {
     position: absolute;
     height: 60.14%;
-    width: 10.68%;
+    width: 10.69%;
     top: 0%;
-    right: 55.65%;
+    right: 55.64%;
     bottom: 39.86%;
     left: 33.67%;
   }
   .layanan3 {
     position: absolute;
-    width: 82.27%;
+    width: 82.26%;
     top: 0%;
     left: 0%;
     font-weight: 600;
     display: inline-block;
   }
-  .tambal-gigi, .tentang-kami {
+  .tambal-gigi {
     position: absolute;
     width: 100%;
     top: 0%;
@@ -494,7 +404,7 @@
   }
   .scaling {
     position: absolute;
-    width: 62.27%;
+    width: 62.24%;
     top: 26.61%;
     left: 0%;
     line-height: 140%;
@@ -502,7 +412,7 @@
   }
   .cabut-gigi {
     position: absolute;
-    width: 90.05%;
+    width: 90.04%;
     top: 53.21%;
     left: 0%;
     line-height: 140%;
@@ -510,7 +420,7 @@
   }
   .behel {
     position: absolute;
-    width: 48.91%;
+    width: 48.86%;
     top: 79.82%;
     left: 0%;
     line-height: 140%;
@@ -523,11 +433,11 @@
     top: 0%;
     right: 40.12%;
     bottom: 39.86%;
-    left: 50.81%;
+    left: 50.8%;
   }
   .contact-us1 {
     position: absolute;
-    width: 40.32%;
+    width: 40.34%;
     top: 0%;
     left: 0%;
     font-weight: 600;
@@ -535,7 +445,7 @@
   }
   .call-6281213507918 {
     position: absolute;
-    width: 67.47%;
+    width: 67.5%;
     top: 0%;
     left: 0%;
     line-height: 140%;
@@ -562,7 +472,7 @@
   .contact-us {
     position: absolute;
     height: 39.5%;
-    width: 24.5%;
+    width: 24.49%;
     top: 0%;
     right: 9.98%;
     bottom: 60.5%;
@@ -602,17 +512,17 @@
   }
   .footer {
     position: absolute;
-    top: 1070px;
+    top: 1572px;
     left: 0px;
-    width: 1602px;
+    width: 1600px;
     height: 427px;
     color: #a03d56;
   }
-  .profil {
+  .potongan-10 {
     width: 100%;
     position: relative;
     background-color: #fcfefe;
-    height: 1497px;
+    height: 1999px;
     overflow: hidden;
     text-align: left;
     font-size: 36px;
@@ -630,14 +540,7 @@
   .navbar-menu a {
     text-decoration: none;
     color: #fcfefe;
-  }
-  .poin-mahoni-button a {
-    color: #a03d56;
-  }
-  .logout-button a {
-    text-decoration: none;
-    color: #a03d56;
-  }
+  }  
   .halo-mahoni-title a {
     text-decoration: none;
     color: #a03d56;
@@ -648,75 +551,75 @@
   }
 
   @media screen and (max-width:1920px) and (min-width: 1600px) {
-  .footer {
-      width: 100%;
-  }
-  .navbar {
-  width: 100%;
-  }
-  .topmost {
-  width: 100%;
-  }
-  .navbar-menu {
-    position: absolute;
-    left: 280px;
-  }
-  .contact-section {
-    width: 45%;
-    height: 60%;
-  }
-  .profile-button {
-    position: relative;
-    left: 522px;
-    width: 268px;
-  }
-  .content-profil {
-    left: 500px;
-  }
-  }
+    .footer {
+        width: 100%;
+    }
+    .navbar {
+    width: 100%;
+    }
+    .topmost {
+    width: 100%;
+    }
+    .navbar-menu {
+      position: absolute;
+      left: 280px;
+    }
+    .contact-section {
+      width: 45%;
+      height: 60%;
+    }
+    .profile-button {
+      position: relative;
+      left: 522px;
+      width: 268px;
+    }
+    .content-potongan-10 {
+      left: 630px;
+    }
+    }
 
-  @media screen and (min-width:1280px) and (max-width:1367px) {
-  .topmost {
-    width: 1550px;
-  }
-  .halomahoni {
-    position: relative;
-    left: 205px;
-  }
-  .contact-section {
-    position: absolute;
-    left: 593px;
-    width: 40.9%;
-  }
-  .call {
-    width: 30%;
-  }
-  .work-hour {
-    width: 40%;
-  }
-  .location {
-    width: 30%;
-  }
-  .navbar {
-    width: 1506px;
-  }
-  .footer {
-    width: 1500px;
-  }
-  .profile-button {
-    position: relative;
-    right: 85px;
-  }
- .navbar-menu {
-    position: relative;
-    left: 20px;
-  } 
-  .content-profil {
-    position: absolute;
-    left: 280px;
-  }
-  .content-footer {
-    position: relative;
-    left: 150px;
-  }
-  }
+    @media screen and (min-width:1280px) and (max-width:1367px) {
+        .topmost {
+          width: 1550px;
+        }
+        .halomahoni {
+          position: relative;
+          left: 205px;
+        }
+        .contact-section {
+          position: absolute;
+          left: 593px;
+          width: 40.9%;
+        }
+        .call {
+          width: 30%;
+        }
+        .work-hour {
+          width: 40%;
+        }
+        .location {
+          width: 30%;
+        }
+        .navbar {
+          width: 1506px;
+        }
+        .footer {
+          width: 1500px;
+        }
+        .profile-button {
+          position: relative;
+          right: 85px;
+        }
+       .navbar-menu {
+          position: relative;
+          left: 20px;
+        } 
+        .content-potongan-10 {
+          position: absolute;
+          left: 380px;
+        }
+        .content-footer {
+          position: relative;
+          left: 150px;
+        }
+        }

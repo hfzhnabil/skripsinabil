@@ -74,3 +74,6 @@
   background-color: #a03d56;
   filter: brightness(112%);
 }
+.tukar-poin-1:hover, .tukar-poin-2:hover, .tukar-poin-3:hover {
+  top: 170px;
+}

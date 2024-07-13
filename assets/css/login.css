@@ -215,6 +215,7 @@
     position: absolute;
     top: 443px;
     font-weight: 500;
+    font-size: 16px;
     left: 0px;
     border-radius: 50px;
     border: 1px solid #a03d56;
@@ -227,7 +228,6 @@
     justify-content: center;
     padding: 13px 35px;
     box-sizing: border-box;
-    font-size: 16px;
     color: #FDCEDF;
   }
   .klik-disini1 {

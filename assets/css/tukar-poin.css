@@ -34,7 +34,6 @@
     top: 53.66%;
     left: 20.9%;
     font-weight: 500;
-    color: #fdcedf;
     display: inline-block;
   }
   .phone-call-icon {
@@ -58,7 +57,6 @@
     right: 73.7%;
     bottom: 0%;
     left: 0%;
-    color: #ffb7d1;
   }
   .everyday {
     position: absolute;
@@ -75,7 +73,6 @@
     left: 17.89%;
     text-transform: uppercase;
     font-weight: 500;
-    color: #ffb7d1;
     display: inline-block;
   }
   .clock-icon {
@@ -115,7 +112,6 @@
     left: 26.65%;
     text-transform: uppercase;
     font-weight: 500;
-    color: #ffb7d1;
     display: inline-block;
   }
   .location-icon {
@@ -158,8 +154,9 @@
     left: 0px;
     width: 1600px;
     height: 80px;
+    color: #ffb7d1;
   }
-  .tentang-kami-navbar {
+  .tentang-kami {
     position: relative;
   }
   .navbar-menu {
@@ -203,185 +200,157 @@
     color: #fcfefe;
     font-family: "Work Sans";
   }
-  .ahmad-profil-icon {
-    position: absolute;
-    top: 107px;
-    left: 0px;
-    width: 394px;
-    height: 397px;
-    object-fit: cover;
-  }
-  .poin-mahoni-box {
+  .tukar-poin1 {
     position: absolute;
     top: 0px;
-    left: 0px;
-    border-radius: 50px;
-    border: 1px solid #a03d56;
-    box-sizing: border-box;
-    width: 175px;
-    height: 42px;
-  }
-  .poin-mahoni-icon {
-    position: absolute;
-    top: 3px;
-    left: 19px;
-    width: 33px;
-    height: 36px;
-    object-fit: cover;
-  }
-  .poin-mahoni {
-    position: absolute;
-    top: 4px;
-    left: 60px;
-  }
-  .b {
-    position: absolute;
-    top: 19px;
-    left: 92px;
-    font-size: 18px;
-  }
-  .poin-mahoni-button {
-    position: absolute;
-    top: 523px;
-    left: 105px;
-    width: 175px;
-    height: 42px;
-    text-align: center;
-    font-size: 15px;
-    color: #a03d56;
-  }
-  .profil1 {
-    position: absolute;
-    top: 0px;
-    left: 496px;
+    left: 392px;
     font-size: 64px;
     font-family: "Yeseva One";
     color: #ffb7d1;
-    text-align: center;
   }
-  .nama-lengkap {
+  .tukar-poin-1-box {
     position: absolute;
-    top: 107px;
-    left: 496px;
-    border-radius: 6px;
-    border: 1px solid #000;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 5px solid #fdcedf;
     box-sizing: border-box;
-    width: 379px;
-    height: 58px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 9px 7px;
   }
-  .username {
+  .free-scaling-banner {
     position: absolute;
-    top: 189px;
-    left: 496px;
-    border-radius: 6px;
-    border: 1px solid #000;
-    box-sizing: border-box;
-    width: 379px;
-    height: 58px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 9px 7px;
+    top: 11px;
+    left: 9px;
+    width: 321px;
+    height: 321px;
+    object-fit: cover;
   }
-  .email {
+  .poin-box {
     position: absolute;
-    top: 272px;
-    left: 494px;
-    border-radius: 6px;
-    border: 1px solid #000;
-    box-sizing: border-box;
-    width: 379px;
-    height: 58px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 9px 7px;
+    top: 0px;
+    left: 0px;
+    border-radius: 40px;
+    background-color: #fdcedf;
+    width: 275px;
+    height: 36px;
   }
-  .password-baru {
+  .poin-mahoni-icon {
     position: absolute;
-    top: 359px;
-    left: 494px;
-    border-radius: 6px;
-    border: 1px solid #000;
-    box-sizing: border-box;
-    width: 379px;
-    height: 58px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 9px 7px;
+    top: 1px;
+    left: 53px;
+    width: 31px;
+    height: 34px;
+    object-fit: cover;
   }
-  .konfirmasi-password {
+  .poin1 {
     position: absolute;
-    top: 446px;
-    left: 494px;
-    border-radius: 6px;
-    border: 1px solid #000;
-    box-sizing: border-box;
-    width: 379px;
-    height: 58px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 9px 7px;
+    top: 4px;
+    left: 98px;
   }
-  .update-data-button {
+  .poin {
     position: absolute;
-    top: 536px;
-    left: 494px;
-    border-radius: 50px;
-    border: 1px solid #a03d56;
-    background-color: #a03d56;
-    width: 379px;
-    height: 60px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 13px 35px;
-    box-sizing: border-box;
-    font-size: 16px;
-    color: #fdcedf;
+    top: 342px;
+    left: 35px;
+    width: 275px;
+    height: 36px;
   }
-  .logout-button {
+  .tukar-poin-1 {
     position: absolute;
-    top: 621px;
-    left: 494px;
-    border-radius: 50px;
-    background-color: #fcfefe;
-    border: 1px solid #a03d56;
-    box-sizing: border-box;
-    width: 379px;
-    height: 60px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 13px 35px;
-    font-size: 16px;
-    color: #a03d56;
+    height: 58.48%;
+    width: 29.78%;
+    top: 28.3%;
+    right: 70.22%;
+    bottom: 13.22%;
+    left: 0%;
   }
-  .logout {
-    position: relative;
+  .potongan-10-banner {
+    position: absolute;
+    top: 10px;
+    left: 9px;
+    width: 321px;
+    height: 321px;
+    object-fit: cover;
+  }
+  .poin-mahoni-icon1 {
+    position: absolute;
+    top: 1px;
+    left: 51px;
+    width: 31px;
+    height: 34px;
+    object-fit: cover;
+  }
+  .poin3 {
+    position: absolute;
+    top: 4px;
+    left: 100px;
+  }
+  .poin2 {
+    position: absolute;
+    top: 342px;
+    left: 32px;
+    width: 275px;
+    height: 36px;
+  }
+  .tukar-poin-2 {
+    position: absolute;
+    height: 58.48%;
+    width: 29.78%;
+    top: 28.3%;
+    right: 35.11%;
+    bottom: 13.22%;
+    left: 35.11%;
+  }
+  .potongan-25-banner {
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    width: 322px;
+    height: 317px;
+    object-fit: cover;
+  }
+  .poin-mahoni-icon2 {
+    position: absolute;
+    top: 1px;
+    left: 54px;
+    width: 31px;
+    height: 34px;
+    object-fit: cover;
+  }
+  .poin5 {
+    position: absolute;
+    top: 4px;
+    left: 101px;
+  }
+  .tukar-poin-3 {
+    position: absolute;
+    height: 58.48%;
+    width: 29.78%;
+    top: 28.3%;
+    right: 0%;
+    bottom: 13.22%;
+    left: 70.22%;
+  }
+  .riwayat-penukaran {
+    position: absolute;
+    top: 675px;
+    left: 472px;
+    font-size: 18px;
     font-weight: 500;
-  }
-  .content-profil {
-    position: absolute;
-    top: 278px;
-    left: 309px;
-    width: 875px;
-    height: 681px;
-    font-size: 14px;
     color: #000;
+    text-align: left;
+  }
+  .content-tukar-poin {
+    position: absolute;
+    top: 242px;
+    left: 229px;
+    width: 1136.4px;
+    height: 696px;
+    text-align: center;
+    font-size: 24px;
     font-family: "Work Sans";
   }
   .background-footer {
@@ -484,7 +453,7 @@
     font-weight: 600;
     display: inline-block;
   }
-  .tambal-gigi, .tentang-kami {
+  .tambal-gigi {
     position: absolute;
     width: 100%;
     top: 0%;
@@ -606,9 +575,8 @@
     left: 0px;
     width: 1602px;
     height: 427px;
-    color: #a03d56;
   }
-  .profil {
+  .tukar-poin {
     width: 100%;
     position: relative;
     background-color: #fcfefe;
@@ -616,7 +584,7 @@
     overflow: hidden;
     text-align: left;
     font-size: 36px;
-    color: #ffb7d1;
+    color: #a03d56;
     font-family: "Yeseva One";
   }
   .halomahoni a {
@@ -631,13 +599,6 @@
     text-decoration: none;
     color: #fcfefe;
   }
-  .poin-mahoni-button a {
-    color: #a03d56;
-  }
-  .logout-button a {
-    text-decoration: none;
-    color: #a03d56;
-  }
   .halo-mahoni-title a {
     text-decoration: none;
     color: #a03d56;
@@ -645,78 +606,86 @@
   .menu a, .layanan2 a, .contact-us a {
     text-decoration: none;
     color: #fcfefe;
+  }  
+  .riwayat-penukaran a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .poin2 a {
+    color: #a03d56;
   }
 
   @media screen and (max-width:1920px) and (min-width: 1600px) {
-  .footer {
-      width: 100%;
-  }
-  .navbar {
-  width: 100%;
-  }
-  .topmost {
-  width: 100%;
-  }
-  .navbar-menu {
-    position: absolute;
-    left: 280px;
-  }
-  .contact-section {
-    width: 45%;
-    height: 60%;
-  }
-  .profile-button {
-    position: relative;
-    left: 522px;
-    width: 268px;
-  }
-  .content-profil {
-    left: 500px;
-  }
-  }
+    .footer {
+        width: 100%;
+    }
+    .navbar {
+    width: 100%;
+    }
+    .topmost {
+    width: 100%;
+    }
+    .navbar-menu {
+      position: absolute;
+      left: 280px;
+    }
+    .contact-section {
+      width: 45%;
+      height: 60%;
+    }
+    .profile-button {
+      position: relative;
+      left: 522px;
+      width: 268px;
+    }
+    .content-tukar-poin {
+      left: 380px;
+    }
+    }
 
-  @media screen and (min-width:1280px) and (max-width:1367px) {
-  .topmost {
-    width: 1550px;
-  }
-  .halomahoni {
-    position: relative;
-    left: 205px;
-  }
-  .contact-section {
-    position: absolute;
-    left: 593px;
-    width: 40.9%;
-  }
-  .call {
-    width: 30%;
-  }
-  .work-hour {
-    width: 40%;
-  }
-  .location {
-    width: 30%;
-  }
-  .navbar {
-    width: 1506px;
-  }
-  .footer {
-    width: 1500px;
-  }
-  .profile-button {
-    position: relative;
-    right: 85px;
-  }
- .navbar-menu {
-    position: relative;
-    left: 20px;
-  } 
-  .content-profil {
-    position: absolute;
-    left: 280px;
-  }
-  .content-footer {
-    position: relative;
-    left: 150px;
-  }
-  }
+    @media screen and (min-width:1280px) and (max-width:1367px) {
+        .topmost {
+          width: 1550px;
+        }
+        .halomahoni {
+          position: relative;
+          left: 205px;
+        }
+        .contact-section {
+          position: absolute;
+          left: 593px;
+          width: 40.9%;
+        }
+        .call {
+          width: 30%;
+        }
+        .work-hour {
+          width: 40%;
+        }
+        .location {
+          width: 30%;
+        }
+        .navbar {
+          width: 1506px;
+        }
+        .footer {
+          width: 1500px;
+        }
+        .profile-button {
+          position: relative;
+          right: 85px;
+        }
+       .navbar-menu {
+          position: relative;
+          left: 20px;
+        } 
+        .content-tukar-poin {
+          position: absolute;
+          left: 150px;
+        }
+        .content-footer {
+          position: relative;
+          left: 150px;
+        }
+        }
