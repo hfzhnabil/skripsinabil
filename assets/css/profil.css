@@ -211,6 +211,15 @@
     height: 397px;
     object-fit: cover;
   }
+  .muhammad-hafizh-nabil {
+    position: absolute;
+    top: 507px;
+    left: 20px;
+    font-size: 28px;
+    font-family: "Yeseva One";
+    color: #a03d56;
+    text-align: center;
+  }
   .poin-mahoni-box {
     position: absolute;
     top: 0px;
@@ -218,36 +227,42 @@
     border-radius: 50px;
     border: 1px solid #a03d56;
     box-sizing: border-box;
-    width: 175px;
-    height: 42px;
+    width: 155px;
+    height: 31px;
   }
   .poin-mahoni-icon {
     position: absolute;
-    top: 3px;
-    left: 19px;
-    width: 33px;
-    height: 36px;
+    top: 4px;
+    left: 20px;
+    width: 26px;
+    height: 23px;
     object-fit: cover;
   }
   .poin-mahoni {
     position: absolute;
-    top: 4px;
-    left: 60px;
+    top: 2px;
+    left: 53px;
+    display: inline-block;
+    width: 79.7px;
+    height: 13.3px;
   }
   .b {
     position: absolute;
-    top: 19px;
-    left: 92px;
-    font-size: 18px;
+    top: 14px;
+    left: 82px;
+    font-size: 14px;
+    display: inline-block;
+    width: 18.6px;
+    height: 15.5px;
   }
   .poin-mahoni-button {
     position: absolute;
-    top: 523px;
-    left: 105px;
-    width: 175px;
-    height: 42px;
+    top: 556px;
+    left: 124px;
+    width: 155px;
+    height: 31px;
     text-align: center;
-    font-size: 15px;
+    font-size: 13px;
     color: #a03d56;
   }
   .profil1 {
